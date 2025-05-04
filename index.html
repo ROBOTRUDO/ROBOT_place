@@ -27,8 +27,11 @@
   
 
 
-  <h1 class="text">Cuenta regresiva</h1>
-  <div id="timer" class="contador-neon">Cargando...</div>
+  <h1>Cuenta regresiva</h1>
+  <h1>Mateo PAGAME</h1>
+  <h2>el tiempo el oro<h2>
+  
+  <div id="timer" class="contador-neon">tic tac tic...</div>
 
   <script>
     // Establece la fecha de destino (formato: "YYYY-MM-DDTHH:MM:SS")
@@ -41,7 +44,7 @@
       const diferencia = fechaFinal - ahora;
 
       if (diferencia <= 0) {
-        timerElement.textContent = "¡Tiempo terminado!";
+        timerElement.textContent = "¡La paga esta servida!";
         clearInterval(intervalo);
         return;
       }
